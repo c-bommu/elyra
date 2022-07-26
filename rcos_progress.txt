@@ -1,0 +1,38 @@
+// Trouble with environment setup //
+
+During Weeks 2 & 3, I was having a lot of issues with environment setup. I kept receiving an error with one of the files involved with set-up, which my external mentors presumed did not work with certain environments. Below is the error I was getting, which was in a file called "prettier":
+
+error Command failed with exit code 2.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+make: *** [Makefile:110: prettier-ui] Error 2
+
+I overcame this issue after I met with one of my external mentors outside of class over Webex to keep trying different solutions, and we resorted to creating a new environment for me within a Docker container. Fortunately, this worked. We theorized that installation was not working properly in my environment due to yarn and node not being installed correctly on my system. 
+As a result, the first issue I decided to work on aimed to solve the problem I went through during installation. 
+
+Link to the Docker container used for creating the new working development environment: 
+https://hub.docker.com/layers/elyra/akchin/elyra/dev_env/images/sha256-46f61f376f89114e67d315c1bc366760ff9903fa875c7d157bb2aebc14b91101?context=explore
+
+
+
+// First issue //
+
+In my first issue, our objective was to ensure that the contributor can check to see that they have the correct versions of yarn and node installed during the installation process. Unfortunately, I was (and still am) extremely new to Git, so I knew nothing about how to create a new branch, modify a file, or make a commit. I did not know that I could make make commits to my someone else's branch, so I thought only one of us (me, or the person I was working on the issue with) could commit and make a pull request after making changes to the files. As a result, I made the necessary changes to the files but never ended up commiting them. My partner in the issue had more experience than me when it came to Git, so I was struggling to follow along the process of committing and making a pull request since they were going through it so quickly and I kept running into issues (I had not set up an SSH key at the time). My lack of knowledge left me unable to make a commit for this issue. 
+
+As a result, my struggle led to the opening of a new issue: breaking up the contribution guidelines for making a pull request in order to make them easier to follow.
+
+Link to new issue: https://github.com/elyra-ai/community/issues/12
+
+
+
+// Second issue //
+
+Before I could start working on my new issue, I had to learn about the process of making a pull request in the first place since I had never made one before. I spent some time looking into resources, specifically a link that one of my external mentors pointed me to.
+
+Pull request resource link: https://www.atlassian.com/git/tutorials/making-a-pull-request
+
+I still felt unfamiliar with the process, as I still had not actually gone through it. It was at this time that I reached out to Professor Turner, who I explained my circumstances to. He then walked me through the steps of making a commit, during which he helped me set up an SSH key, create a new branch, create this file, and commit it. He also pointed me to another resource to help familiarize myself with Git, which I am currently looking through.
+
+Link to Git resource: https://github.com/rcos/CSCI-4470-OpenSource/tree/master/Modules/02.Git/Git-Introduction-Part-I
+
+As I understand more of how Git works, I am able to start working on my new issue.
+
